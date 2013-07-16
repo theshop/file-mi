@@ -25,7 +25,7 @@ from whoosh.fields import Schema, TEXT, STORED, KEYWORD, DATETIME, ID
 from whoosh.index import create_in, open_dir, exists_in
 from whoosh.qparser import QueryParser, MultifieldParser
 from whoosh.query import Query, Term
-from whoosh.analysis import NgramTokenizer
+from whoosh.analysis import NgramTokenizer, LowercaseFilter
 from whoosh.writing import BufferedWriter, AsyncWriter
 
 """
@@ -35,11 +35,11 @@ Documents can be added to, removed from, and modified in the directory that stor
 
 class Engine:
 
-
+	ANALYZER = NgramTokenizer(minsize=2, maxsize=15) | LowercaseFilter()
 	# Search based on only pathname
 	FILENAME_SCHEMA = Schema(path = ID(stored=True),
 							 mod_time = DATETIME(stored=True),
-							 content = TEXT(stored=True, analyzer=NgramTokenizer(minsize=2, maxsize=15))
+							 content = TEXT(stored=True, analyzer=ANALYZER)
 							 )
 
 	IMAGE_EXTENSIONS = ['png', 'jpg', 'jpeg']
