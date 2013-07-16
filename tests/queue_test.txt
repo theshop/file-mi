@@ -1,0 +1,82 @@
+Good News:
+
+- EVENT_QUEUE didn't overflow
+- All files were added (?) --> 1000061 files added to monitored_directory
+
+Bad News:
+
+- Not all files indexed.... ---> Check mil-test-run2.txt for log records
+- only 184990 files indexed properly (upto the eyai directory roughly)
+
+Possible explanations:
+
+- Asynchronous queue oveflow?
+- EventHandler tried to put stuff into queue when full, so those items lost. But the 184990 files were the first 184990 files, which wouldn't have happened if the some files were lost when 
+the queue was TEMPORARILY full (Indexer was pulling from the other side)
+
+Tests to run to obtain some more information of the root of the problem:
+
+-o shut off Event logger, and have only the indexer logger running ---> find rate of Indexer (why is it so slow when EventHandler is adding to the queue simultaneously) with the log_rate = 1
+-o Clearly the "time_taken to index" variable is not giving the total time taken for the process of getting from queue, and THEN indexing.
+	- Test the difference between a regular index vs. index when it needs to get from the queue first
+-o Using a queue, but no EventManager, but by taking all the paths out of a queue first and using the same buffered_writer we've been using
+	- To answer: Is the indexing occuring in this "batch - like" manner due to the adding to queue simultaneously, or due to some fault in the buffered_writer setup
+-o CHANGE THE BATCH SIZE FOR BUFFERED_WRITER!!!!
+
+- With new buffered_writer args in place, run original monitor, with log_rate = 500 for add, while log_rate = 1 for index
+	- compare how many added to how many indexed ratio
+
+- Renaming the top directory
+
+
+
+Indexing test results:
+
+- at 11:26pm ----> 17610 indexed; currently at z/n/EQKFFHSLZLXKVBZSRJYM
+- at 11:38pm ----> 20190 indexed;
+So 12 minutes, 3000 indexed. so 250 per minute.. so 4 per second... so each index takes roughly 0.25 seconds. So roughly 70 hours to index everything...
+- Interesting to note:
+	- queue.get() is taking 7 seconds!?!?!?!?! why??? - Nevermind: forgot to read e-06, it's fine
+
+
+Running Again (mil-test-no_monitor.txt) , but with datetime showing the current time, and buffered_writer limit adjusted to 1000
+
+- Every commit (every 1000 buffers), takes 35-36 seconds, whereas, every normal buffer takes 0.006s - 0.007s
+- Every alternate commit takes upto ten minutes!!!!!! Why?
+- Running much quicker than the default period, limit settings
+- The time taken to index is rising linearly with each index (just noticed a slight drop from the previous one) ---> Is this a thing with the computer?
+- Just had an 83s index... umm.. ok.
+- reduced estimated time from 79 hrs to 13.1 hrs to index a mil things (note: tested without simultaneously adding)
+
+
+Running mil-test-run4:
+
+	- buffered_writer args: 
+		- period: 300
+		- limit: 10000 
+
+	- monitor log_rate = 10,000
+	- index log_rate = 1000
+
+	observations:
+
+	- All files transfered to monitored_directory2
+	- about 1/5th indexed so far. (12 pm - july 1)
+
+Run mil-test-run5
+
+	- buffered_writer args: 
+		- period: 120
+		- limit: 1000
+
+	- monitor log_rate = 10,000
+	- index log_rate = 1000
+
+	Compare this data to mil-test-nomonitor to understand difference in times when adding to queue on different thread vs. not. 
+
+
+UPDATING THE RENAMING DIRECTORY FUNCTION IN FILEMONITORQUEUE.PY:
+
+- rather than flooding the queue with add/delete, flood it with add/delete/update;
+	Indexer will process all the updates together, by getting while add_or_delete == 2 (the update condition): and processing under the same writer...
+

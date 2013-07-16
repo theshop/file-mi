@@ -1,0 +1,35 @@
+1. Indexing BET folder from scratch (taking min out of 7 trials using python's timeit module): ~ 66.69s 
+	- number of files: 2288 files (.029s/ file)
+
+
+	- Indexing 1GB of rawdata files(138 items):
+		- ~ 0.3s per item
+
+	--> Each filename takes roughly 0.3 seconds to index. (pretty consistent between multiple folders)
+
+2. Adding All of sila Data to the FS monitored on 10.10.10.60 (checking for event queue overflow): 
+
+	observations:
+	
+		- Uploading files takes longer than indexing (significantly longer; 3x - 4x longer)
+		- Meaning impossible to get an event queue overflow when the event handling has that much time to index the path
+
+		- note: pyinotify's recursive monitoring means only add_doc and remove_doc of the engine are used during the monitoring
+
+
+		- Adding 1 GB (138 items) of files to monitored_directory of 10.10.10.60 and updating the index as the files are transferred: 
+			- 4 minutes to upload the files
+			- indexing each file took approximately 0.30 seconds, but is far less than the time taken to upload each file, so while next file was getting added to the directory, the current file was getting indexed without any problem.
+
+
+3. To truly test the monitoring, a file of 30,000 files of very small size (so that there is no gap between uploading and indexing of 	   the next file) is added to the monitoring directory:
+	
+	- AFTER 21.48 MINUTES, EVENT QUEUE OVERFLOWED
+	- # FILES INDEXED SUCCESSFULLY : 
+
+4. Serving up 100 images from web server on 10.10.10.60 (check time):
+
+Search Test:
+Query SYB in BET folder:
+	- number_results = 1161
+	- time_taken = 0.038169s 

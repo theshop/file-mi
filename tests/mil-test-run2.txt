@@ -1,0 +1,252 @@
+RUN 2:
+
+- OBSERVATIONS:
+	- NO EVENT_QUEUE OVERFLOW ERROR
+	- NOT ALL FILES WERE INDEXED (STARTING FROM THE EYAI DIRECTORY - ROUGHLY)
+		- ONLY 184990 FILES WERE INDEXED
+		- POSSIBLE REASONS;
+			- 
+
+
+
+
+
+the path ['/home/koopuluri/monitored_directory/mil-test', '2013-06-28 17:11:31.730711'] added to fs is not file
+time taken to index path:  [0.005233049392700195, '/home/koopuluri/monitored_directory/mil-test/.DS_Store', '2013-06-28 17:11:31.779836']
+added ['/home/koopuluri/monitored_directory/mil-test/MXCCVPZMFMFLGIGCHWWQ.txt', '2013-06-28 17:11:47.471051'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/AZAKNKNXWNLLYMRBWZFN.txt', '2013-06-28 17:12:02.618472'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/n/AMFJESHODLHETNCOTWVS.txt', '2013-06-28 17:12:17.873613'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/n/HCMOWVUPPUDPLBEHXJZY.txt', '2013-06-28 17:12:32.970494'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/n/NMMSWZVOLPLCWKMSGTHK.txt', '2013-06-28 17:12:48.389656'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/n/TZRZPUAZZFMACFYSFCXH.txt', '2013-06-28 17:13:03.470369'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nx/ADXARSDFWFEDULZUBQVY.txt', '2013-06-28 17:13:19.013013'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nx/MYSOWOTUIDSHKJFAYFVS.txt', '2013-06-28 17:13:35.028992'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ACOJZLVMGZESIRPTLWSW.txt', '2013-06-28 17:13:50.592543'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/c/LFNJLTNTVZERSJILDPXM.txt', '2013-06-28 17:14:06.995327'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/c/YCEDNBSGMBHSWZEIDNTK.txt', '2013-06-28 17:14:23.918528'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ck/KZAIDBODNSVDRGTJHOTD.txt', '2013-06-28 17:14:38.791192'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ck/XXEZETWQMOJGEEHCGYTR.txt', '2013-06-28 17:14:53.616916'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckb/FOSUNDRDIBAVNKCGVQUD.txt', '2013-06-28 17:15:08.421947'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckb/MCSQPLQSMHIHTVGOUAFJ.txt', '2013-06-28 17:15:23.224424'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckb/SNWFBLIBYDNKSPKGLJWL.txt', '2013-06-28 17:15:38.348103'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckb/YYKCLNADFWEFBRUZAHKT.txt', '2013-06-28 17:15:53.107836'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbc/KQCIXXSIUVSJCNNSPEMH.txt', '2013-06-28 17:16:07.683503'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbc/XQYEMMSYPKHTTBZSCOAP.txt', '2013-06-28 17:16:22.234192'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/BNNJCRFSWJYXCYAAPOVR.txt', '2013-06-28 17:16:38.122774'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/DKDAJVEDVEUYESMZIAUC.txt', '2013-06-28 17:16:53.519883'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/FGHGIVEKGDNOCIKLQFFS.txt', '2013-06-28 17:17:09.053567'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/HDCIDBMYXPKXSHZRUKJV.txt', '2013-06-28 17:17:25.089505'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/IZDNBOKGPTYSWHRIIHUD.txt', '2013-06-28 17:17:42.057202'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/KUKZJWPJHPKGTQAIAQTR.txt', '2013-06-28 17:17:57.885272'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/MRFWJMZNXTUPSDJGTWVU.txt', '2013-06-28 17:18:13.843056'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/OOFDGNFIXKTPKMSHZDDR.txt', '2013-06-28 17:18:29.524180'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/QKLCJVIXBJWUMYDFDEAD.txt', '2013-06-28 17:18:45.300751'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/s/BUAPZCLZNUMQKYYPTNIM.txt', '2013-06-28 17:19:00.926403'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/s/OSNTWJTHJECYUZHGYSET.txt', '2013-06-28 17:19:16.222043'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/SGNGLFWRZGXPPAIAVEUE.txt', '2013-06-28 17:19:38.063404'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/sz/IBATEDIZAIYGLDCHGYPK.txt', '2013-06-28 17:19:53.261472'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/sz/UZLKRAFOBSRHOVQRJSRU.txt', '2013-06-28 17:20:08.017883'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/BYKTJVXHOJVMMADUZHUA.txt', '2013-06-28 17:20:24.039708'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/FFCZRJPNPOMXMLBDYTAU.txt', '2013-06-28 17:20:40.824200'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/IMBQCMQXEMWHYGQZIBJQ.txt', '2013-06-28 17:20:56.771370'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/LTWXYICRGEXPRJFUMWTW.txt', '2013-06-28 17:21:12.756901'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/BYJIUHAKVZADDCKIJIUI.txt', '2013-06-28 17:21:27.978647'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/e/KXHLUBGVZDUPIJZCYUWQ.txt', '2013-06-28 17:21:43.695021'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/e/XZECGKSOSDAQYEEMVFBU.txt', '2013-06-28 17:21:59.039779'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/ey/FBVSLZPHWBDKLNTUDHOU.txt', '2013-06-28 17:22:14.440506'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/ey/LPJMNMWCUPKAWXZGQATQ.txt', '2013-06-28 17:22:29.621574'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/ey/RYHWUUQTAERMKRBQLKJO.txt', '2013-06-28 17:22:44.885019'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/ey/YOAGFVZNCDGEENDELKIQ.txt', '2013-06-28 17:22:59.812179'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eya/KBMZWHBZZPUZKLYKWMVG.txt', '2013-06-28 17:23:15.285928'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eya/WXTPIZAJRMKWTDNSIXNN.txt', '2013-06-28 17:23:30.616912'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/JGOPWIZZRXROGXCZMOEE.txt', '2013-06-28 17:23:46.215114'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/VYXTDIDVDFUUFKMRDWKU.txt', '2013-06-28 17:24:01.411291'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/x/FYGPOQDDBPMQVNXQFJGG.txt', '2013-06-28 17:24:16.905307'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/x/MNOKEIWJFJIWGTUEHIGU.txt', '2013-06-28 17:24:32.318036'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/x/TDGZDMXJKQEKAHJXVKHU.txt', '2013-06-28 17:24:47.655742'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/x/ZOBSYXBPMCONJBDUQQEE.txt', '2013-06-28 17:25:02.617372'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xm/LLMYXHJGCZIJPLLFDGTG.txt', '2013-06-28 17:25:17.519961'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xm/YOMOXYXQPZZIMEAOAJWJ.txt', '2013-06-28 17:25:32.614902'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmj/LNBRCNPGFUBZSOWEBWOK.txt', '2013-06-28 17:25:47.909634'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmj/YRBNVMWKUUFSVSUIADUC.txt', '2013-06-28 17:26:02.998095'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/LKBSUAUMSKHDHDLMFSQN.txt', '2013-06-28 17:26:20.444825'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/b/KMMPTLCGDWKOUWBRECSQ.txt', '2013-06-28 17:26:37.022421'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/b/XMMRKBXHTTCQUYQVVXBJ.txt', '2013-06-28 17:26:52.351840'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bc/DLZXFILOBWBCSTBNAXGA.txt', '2013-06-28 17:27:07.569391'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bc/HTUVDKKFPOJARRHFISXJ.txt', '2013-06-28 17:27:22.646457'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bc/MDEYHVVHUAXAVTEWEWER.txt', '2013-06-28 17:27:38.135579'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bc/QNPXHWFZYXXHVEYZNEBY.txt', '2013-06-28 17:27:53.307368'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bc/UUWAJYPQZVMCHAAAREYI.txt', '2013-06-28 17:28:08.643265'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bc/ZDDSJGDCNRBDTTJJMXKT.txt', '2013-06-28 17:28:24.123664'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/FBOOMWVQIDTZOBSEMQRR.txt', '2013-06-28 17:28:39.333440'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/LODIPFXDXGGYYJANVPDG.txt', '2013-06-28 17:28:54.572793'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/SCZYYVKOUWKDNQTINZTT.txt', '2013-06-28 17:29:09.506556'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/w/FGDXOMOICPXUVLDIQYPG.txt', '2013-06-28 17:29:24.625647'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/w/SFJWQHMHDXPQAYTKEZKL.txt', '2013-06-28 17:29:39.959473'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/BUIBGXFAXOZRJIGHGYJX.txt', '2013-06-28 17:29:54.996690'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/IFPYKPQGVTCRQISJMAUL.txt', '2013-06-28 17:30:10.048150'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/OSLBBZJVFUXASMJKDNHR.txt', '2013-06-28 17:30:25.173228'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/VIYDZAHJWSDEIQMLBQPQ.txt', '2013-06-28 17:30:40.193310'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/AYVDJFSVCUUHXXYOCQPH.txt', '2013-06-28 17:30:55.535854'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/DNTEXPRMPXXWEODFWBZL.txt', '2013-06-28 17:31:11.044247'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/GDSNWCTKIDEBFNFOFEDG.txt', '2013-06-28 17:31:26.554588'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/IUKOURATLGYNCSRQGEFA.txt', '2013-06-28 17:31:41.984193'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/l/AZAELWBTEGZOHEEXZDSC.txt', '2013-06-28 17:31:57.596432'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/l/HJRPUSPDEDVEAPATJILE.txt', '2013-06-28 17:32:13.007341'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/l/NYIDHNPPLSFJBTTYGBGT.txt', '2013-06-28 17:32:28.508446'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/l/UKMYMKFNTHWGJBNRCUVW.txt', '2013-06-28 17:32:44.214071'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/AQQQHZJCUFJXNIBNSULL.txt', '2013-06-28 17:32:59.823519'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/HCRAAWHCCOWHMWGOGMJI.txt', '2013-06-28 17:33:15.175726'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/b/EAMNALYNPJNFJZEKIQCB.txt', '2013-06-28 17:33:30.064188'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/b/KQXKREYXJDBXBFESTYXJ.txt', '2013-06-28 17:33:45.543751'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/b/RCODAUWGIYIBBROUZRRQ.txt', '2013-06-28 17:34:00.709921'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/b/XQVXHGKXVSJFFFKBCAJJ.txt', '2013-06-28 17:34:16.016020'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/HVTSYWUSIUMPNLEQDRAB.txt', '2013-06-28 17:34:31.333349'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/UVHHHSLBVDGFFGUUMJSP.txt', '2013-06-28 17:34:46.583356'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/w/FXCGAXDWQYUQMBZFALCI.txt', '2013-06-28 17:35:01.858990'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/w/MHMXSGVKJVXRKUQDSIOP.txt', '2013-06-28 17:35:19.345705'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/w/SUOONTYBZNPECZLAIBVJ.txt', '2013-06-28 17:35:34.372532'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/w/ZKEHWMCVDEORRNQHBIXX.txt', '2013-06-28 17:35:50.039949'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wb/LVYQTVUMJCWRMFCZOQEW.txt', '2013-06-28 17:36:05.168916'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wb/YTHSLJQUXHDXALZRVQIO.txt', '2013-06-28 17:36:23.331196'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbc/EAFUNBUBULXWEYVKFXAK.txt', '2013-06-28 17:36:39.431047'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbc/IKDAYQULEHBCEBJGZSFH.txt', '2013-06-28 17:36:54.904101'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbc/MQYKYHCKLSDCMIZPEDXQ.txt', '2013-06-28 17:37:10.223515'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbc/QZSSJSDKBANWGJRWTWBU.txt', '2013-06-28 17:37:25.776942'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbc/VGMRNTMTQXKATRXAPELH.txt', '2013-06-28 17:37:41.354134'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbc/ZPPTNTTTNVNZQDWWIBTU.txt', '2013-06-28 17:37:57.054663'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcq/LRRNHYAVXXXYIZRMZFFK.txt', '2013-06-28 17:38:12.026681'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcq/YSFBJECGMWBFIOFIWLEK.txt', '2013-06-28 17:38:26.816344'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/FYDUSWGDOMMPAYZSFNHT.txt', '2013-06-28 17:38:41.964307'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/MJLOCAGLJLKBJWIOFASF.txt', '2013-06-28 17:38:59.388888'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/q/CXSZSIOVBUKTQKWBXARK.txt', '2013-06-28 17:39:14.653676'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/q/JKWGOGOLKITWWCOBZMZF.txt', '2013-06-28 17:39:29.769217'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/q/PYYAFERZFCAWMHEEPGDS.txt', '2013-06-28 17:39:45.684372'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/q/WLPWIJHTKAQFFDHZREAW.txt', '2013-06-28 17:40:00.806748'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/EDBWMQOBOSFOHJYZVTQR.txt', '2013-06-28 17:40:16.106578'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/FBMCJAFVGBONYBRCRATZ.txt', '2013-06-28 17:40:31.602789'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/LNSJNLFFDVAAIJPJKWXO.txt', '2013-06-28 17:40:46.830161'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/RXGBFIZVVCKVSDCKXWLW.txt', '2013-06-28 17:41:02.023169'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/d/FRZKSAZMURDMONYSNUQP.txt', '2013-06-28 17:41:17.481181'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/d/SWFDMQOXHUVWNNCNUMZC.txt', '2013-06-28 17:41:31.912117'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/de/CVDBIFDXYSOGMKPRDRDT.txt', '2013-06-28 17:41:46.663175'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/de/JIPBJYTSRPKIUSAYWWTT.txt', '2013-06-28 17:42:01.622246'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/de/PXLEYSTYXJPPNPMTZBQX.txt', '2013-06-28 17:42:16.930430'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/de/WLNUKCMJWKHUPNCTBPVA.txt', '2013-06-28 17:42:32.304479'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/CUJPCZJJZJNHEWACNMJV.txt', '2013-06-28 17:42:47.860736'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/JGOQCSYXIUZFBKGKPWXU.txt', '2013-06-28 17:43:05.395926'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/PVKOKECAFISRMVJJOOWS.txt', '2013-06-28 17:43:20.517488'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/q/GHKYLLFENCLTAZOCZLAG.txt', '2013-06-28 17:43:37.736695'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/q/MVITRTTJWUICCSHKOMYJ.txt', '2013-06-28 17:43:52.862924'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/q/THOVZMKFVNBPPYZDTHKS.txt', '2013-06-28 17:44:08.037330'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/q/ZVQWJCAZWUATFCINGWWK.txt', '2013-06-28 17:44:23.647530'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qy/FNEBVGQLJLBHRRPSRKTI.txt', '2013-06-28 17:44:39.001372'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qy/MAACFKSCTBMAIJFDRSOF.txt', '2013-06-28 17:44:54.152455'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qy/SLRDWZIKQBLECPUOPXCI.txt', '2013-06-28 17:45:09.225818'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qy/YWHGPIKNSSNKLHGWQGOX.txt', '2013-06-28 17:45:24.265536'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qym/DOHCMMMPAOMPCUVGVOEI.txt', '2013-06-28 17:45:39.816097'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qym/HVRMUGUIUQTKTOMWGFLO.txt', '2013-06-28 17:45:58.162259'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qym/MGDNYCVSCWBHPAJTTEFZ.txt', '2013-06-28 17:46:34.336856'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qym/QOXJPDJQYFVFFZTHIDMB.txt', '2013-06-28 17:46:54.417285'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qym/UWJDIPBMNBZQMODPWLDG.txt', '2013-06-28 17:47:16.629770'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qym/ZGPPCHTOXETJLVVVKHNA.txt', '2013-06-28 17:47:36.282645'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qyms/KWJHHMQWJFYPPGHWRKSP.txt', '2013-06-28 17:47:55.441186'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qyms/XSZLZCIDNSHKYBXDYXLB.txt', '2013-06-28 17:48:14.711730'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qymsr/KVVXLFKSJZPMFDDULRKQ.txt', '2013-06-28 17:48:33.332331'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qymsr/XSXHSHARGDPPYPLCSLRA.txt', '2013-06-28 17:48:52.564378'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qymsrk/DMYJRWSRZBHZWGWQMJEI.txt', '2013-06-28 17:49:11.347951'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qymsrk/HVIBMBIZUHHHGUMOKEME.txt', '2013-06-28 17:49:29.772791'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qymsrk/m/AMFKZNPGNCLDGYQXEFLH.txt', '2013-06-28 17:49:48.494609'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qymsrk/m/NNQMXAZBMSKSLTSQCZZO.txt', '2013-06-28 17:50:07.288026'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qymsrk/MESXYGKMCHCDMQOCMEYG.txt', '2013-06-28 17:50:25.791450'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qymsrk/mq/LVKBEZIQYFYCWDBUYMCI.txt', '2013-06-28 17:50:44.400871'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qymsrk/mq/YRDQKGIWWKTUCXIHHUIK.txt', '2013-06-28 17:51:02.798649'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qymsrk/mq/z/GHMMOGVOHHNXXMSJOBCC.txt', '2013-06-28 17:51:21.600332'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qymsrk/mq/z/l/DQTRCSJCFRDMHAXIOGAT.txt', '2013-06-28 17:51:39.680846'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qymsrk/mq/z/l/QNDICGOXEZAUFQWJTRNP.txt', '2013-06-28 17:51:58.087348'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qymsrk/mq/z/MWTMCAQYJGFXBDACCXOH.txt', '2013-06-28 17:52:16.640201'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qymsrk/mq/z/TKVRAEXRDBEVAKDLEIDM.txt', '2013-06-28 17:52:35.048095'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qymsrk/mq/z/ZWFHYKLGJVMITMLPORCA.txt', '2013-06-28 17:52:53.496480'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qymsrk/QNSXDCRVVMBOOGZOYTPJ.txt', '2013-06-28 17:53:12.636148'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qymsrk/VAACPKSJJKIEVPLRFAXE.txt', '2013-06-28 17:53:32.037909'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/qymsrk/ZFUVVSGBCGNSOAWSOPEB.txt', '2013-06-28 17:53:51.038066'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/deu/WINYGODZPDOJWZHZYVVY.txt', '2013-06-28 17:54:10.316396'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/ISNQPJVWVBKAMPMOGNOO.txt', '2013-06-28 17:54:28.556751'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/u/VSSFYCAWESFSZDGYNTOZ.txt', '2013-06-28 17:54:46.967518'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/h/YKLDGDYBWCERTFATZIJE.txt', '2013-06-28 17:55:05.136358'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/qy/QZMHOKUCUHGVBMRIEJVV.txt', '2013-06-28 17:55:24.040922'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/SXQMIQCPQIXMMDZMTGVV.txt', '2013-06-28 17:55:41.891175'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/bp/wbcqu/ZJNZJFMLUIWEXSKQKERC.txt', '2013-06-28 17:55:59.668927'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/JLKJXLSNWOTRUQVGNZGW.txt', '2013-06-28 17:56:17.849113'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/j/WGKWLTSBVPFXGTLSGSRN.txt', '2013-06-28 17:56:35.167538'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/NRFFKTOXXLLHSSQWBWHL.txt', '2013-06-28 17:56:53.918043'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/ld/UDBCZJRRKQTQMGXNDYFL.txt', '2013-06-28 17:57:12.624792'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/LJVQZTJFZAWJLMNHYRKE.txt', '2013-06-28 17:57:30.625472'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/OALSOHKVGTOBHLARYSIT.txt', '2013-06-28 17:57:48.050336'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/QQUKGGAPUSREZATPUNKU.txt', '2013-06-28 17:58:05.947578'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/TFKCFVMGAZEDERYWKIJJ.txt', '2013-06-28 17:58:24.414545'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/VUXOIBOQNONVYAFDMPEQ.txt', '2013-06-28 17:58:42.673641'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/b/YJZPFEROGQMJOXCWPZZT.txt', '2013-06-28 17:59:01.513512'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/COAJRWNRYUAQDONECGBE.txt', '2013-06-28 17:59:19.458777'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/GVDMOZVRCNRZUETFGNSS.txt', '2013-06-28 17:59:38.611977'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/LELVHMNWMPHHIYIWFTCF.txt', '2013-06-28 17:59:56.417878'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/POLZRYTGAFSDWLDPKKEI.txt', '2013-06-28 18:00:15.505966'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/TWCRSHDXFFWMNPLTWYCE.txt', '2013-06-28 18:00:36.070179'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/ww/y/YDFFCETCDFRXOBMXHXTE.txt', '2013-06-28 18:00:58.126836'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/bcx/YQDHEMNPZQSFOUELAQYL.txt', '2013-06-28 18:01:18.614135'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/LFMVUYGNOOVHMZOASXDK.txt', '2013-06-28 18:01:38.983248'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/n/YIYWDIHNQAIJADYGDRWF.txt', '2013-06-28 18:01:56.464308'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/b/xmjn/YKSZPVGIVJNSPSHYFGJD.txt', '2013-06-28 18:02:14.244837'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/JYMVSDAXGCQGDAYSKBUV.txt', '2013-06-28 18:02:33.167243'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/eyai/WUIJSAEKHUZJLVQDDEWB.txt', '2013-06-28 18:02:52.779731'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/k/OSWGGJILXCJIMRWLZTHE.txt', '2013-06-28 18:03:12.468419'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/LWUUMYZFCUJVCFJXIHOQ.txt', '2013-06-28 18:03:32.377812'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/m/YWONYNUIPUFFZAYRBPUQ.txt', '2013-06-28 18:03:52.404359'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/OYUOIPRXBCADCGYQSLTG.txt', '2013-06-28 18:04:13.857417'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/SEPMGHYKWXMBQEXJQRUB.txt', '2013-06-28 18:04:40.293590'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/VJSDYTOFGEWOMDFQCRKN.txt', '2013-06-28 18:04:57.560285'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/YRLTXSEKZRSXPXDTDYXC.txt', '2013-06-28 18:05:15.085671'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/UCIRCNLPYFQNJAIPWOWI.txt', '2013-06-28 18:05:34.869239'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/VYRXZCOJGRGSDHCBVAUV.txt', '2013-06-28 18:05:54.922899'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/XUKZUXEVGKKVECWKNSHU.txt', '2013-06-28 18:06:15.980378'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/ZRELYBBMOCXWOSHUUCJK.txt', '2013-06-28 18:06:36.089682'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/NFJGQKRHNXDGGCMPIIWU.txt', '2013-06-28 18:06:56.180599'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/z/nxn/ZXRBPIFRCLUOPOCXZXRP.txt', '2013-06-28 18:07:15.330784'] to queue to add: 
+added ['/home/koopuluri/monitored_directory/mil-test/ZUBMOATEDBRGJGXMUGFB.txt', '2013-06-28 18:07:32.143310'] to queue to add: 
+time taken to index path:  [0.006701946258544922, '/home/koopuluri/monitored_directory/mil-test/MXCMZJBHIOITTHHAPPPR.txt', '2013-06-28 18:16:13.918593']
+time taken to index path:  [0.00690913200378418, '/home/koopuluri/monitored_directory/mil-test/z/AZBEDKHMPUSQBDNCZSHA.txt', '2013-06-28 18:38:53.537687']
+time taken to index path:  [0.0070149898529052734, '/home/koopuluri/monitored_directory/mil-test/z/n/AMIDSKXBHKBFFIAXBHNU.txt', '2013-06-28 19:06:09.417025']
+time taken to index path:  [0.007153034210205078, '/home/koopuluri/monitored_directory/mil-test/z/n/HCOWIOAWGOMWRGGDYXLO.txt', '2013-06-28 19:28:59.629341']
+time taken to index path:  [0.007386922836303711, '/home/koopuluri/monitored_directory/mil-test/z/n/NMNUHBZKISDUDXDSCCAF.txt', '2013-06-28 19:56:23.954877']
+time taken to index path:  [0.007236003875732422, '/home/koopuluri/monitored_directory/mil-test/z/n/TZSVPLMZZPOTPWVOLTDG.txt', '2013-06-28 20:18:24.934014']
+time taken to index path:  [0.018804073333740234, '/home/koopuluri/monitored_directory/mil-test/z/nx/AEGGADWOQMRAYDMEIYNT.txt', '2013-06-28 20:45:51.000562']
+time taken to index path:  [0.007130861282348633, '/home/koopuluri/monitored_directory/mil-test/z/nx/MYWOBDTPIEXWUEEYBOQV.txt', '2013-06-28 21:08:49.849430']
+time taken to index path:  [0.007331132888793945, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ACZOPDSLDDTZKRWABRKO.txt', '2013-06-28 21:45:11.321841']
+time taken to index path:  [0.007659912109375, '/home/koopuluri/monitored_directory/mil-test/z/nxn/c/LFYDYJLOELGGZUVKNDFD.txt', '2013-06-28 22:08:38.571042']
+time taken to index path:  [0.007528066635131836, '/home/koopuluri/monitored_directory/mil-test/z/nxn/c/YCOJMJPMFVWWOIFPXNOM.txt', '2013-06-28 22:36:09.856823']
+time taken to index path:  [0.00761103630065918, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ck/KZMONNMTJGMMKXQSRMIU.txt', '2013-06-28 22:59:42.026988']
+time taken to index path:  [0.007776975631713867, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ck/XXQCHETEKESJPOJMLWLJ.txt', '2013-06-28 23:55:15.420186']
+time taken to index path:  [0.007681131362915039, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckb/FPCLSKVCTJPVIZKHCHOQ.txt', '2013-06-29 00:18:38.776237']
+time taken to index path:  [0.007711172103881836, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckb/MCZJWREMORGQEHYVQNRO.txt', '2013-06-29 00:46:34.100822']
+time taken to index path:  [0.007660865783691406, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckb/SOFBLCQQHJZIIOBBJHHC.txt', '2013-06-29 01:08:09.596630']
+time taken to index path:  [0.008015871047973633, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckb/YYSCFWJKQPAZNZBSHKIQ.txt', '2013-06-29 01:45:22.956703']
+time taken to index path:  [0.007822036743164062, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbc/KQQRGYDRPUFSWTDNNTZT.txt', '2013-06-29 02:08:57.965140']
+time taken to index path:  [0.007847785949707031, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbc/XRGFTLPAOVEQJGSLVXFU.txt', '2013-06-29 02:37:05.097475']
+time taken to index path:  [0.007915973663330078, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/BNPNYMEIFPAYPDMUBYVF.txt', '2013-06-29 03:00:36.205337']
+time taken to index path:  [0.00816798210144043, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/DKDYMJGOBVKDCHIUKJCO.txt', '2013-06-29 04:35:30.858027']
+time taken to index path:  [0.008082866668701172, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/FGIZKHTGPBGIAKBBCAFX.txt', '2013-06-29 04:58:32.197843']
+time taken to index path:  [0.008090972900390625, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/HDENAHFALIMGDECCETGP.txt', '2013-06-29 05:26:18.767613']
+time taken to index path:  [0.008322000503540039, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/IZFNOTHTCTJZLHEWQKNM.txt', '2013-06-29 05:49:34.412156']
+time taken to index path:  [0.00803995132446289, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/KUNHUHGREXNGNNJZOSVM.txt', '2013-06-29 06:26:32.791027']
+time taken to index path:  [0.008073806762695312, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/MRHSPQYKEWSPEHRIECPF.txt', '2013-06-29 06:49:59.588269']
+time taken to index path:  [0.008263826370239258, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/OOGWYOFWWEXHELXQRQCS.txt', '2013-06-29 07:16:57.515541']
+time taken to index path:  [0.00799703598022461, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/QKNLDFANVNVKJFXIPBCG.txt', '2013-06-29 07:40:17.341622']
+time taken to index path:  [0.008186817169189453, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/s/BUNNVUPCUDFXRQLBKHJT.txt', '2013-06-29 08:35:53.014471']
+time taken to index path:  [0.008149862289428711, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/s/OTIRNGWTBWUKCUEJFXBD.txt', '2013-06-29 08:59:48.336548']
+time taken to index path:  [0.008016109466552734, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/SGQTKGZLAISGAHHOMJND.txt', '2013-06-29 09:28:19.593658']
+time taken to index path:  [0.008231878280639648, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/sz/IBVZAVRGBFFKHJUMRDUV.txt', '2013-06-29 09:51:42.221440']
+time taken to index path:  [0.008173942565917969, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/sz/VAFMVXZTIHPMTPZNDSJW.txt', '2013-06-29 10:29:46.581240']
+time taken to index path:  [0.008302927017211914, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/BYOQYKGXQCFPAZAAPNAV.txt', '2013-06-29 10:53:50.742860']
+time taken to index path:  [0.008360862731933594, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/FFFSUEXBNXDRLEKFAIHM.txt', '2013-06-29 11:22:12.012958']
+time taken to index path:  [0.008398056030273438, '/home/koopuluri/monitored_directory/mil-test/z/nxn/ckbch/szm/IMDTWWUXOBHAACGPOVUC.txt', '2013-06-29 11:46:03.363797']
+
