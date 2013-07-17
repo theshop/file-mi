@@ -39,8 +39,7 @@ class EventHandler(pyinotify.ProcessEvent):
             try:
                 print "in try block with path: ", event.pathname
                 print "does path exist? ", os.path.exists(event.pathname)
-                im = Image.open(event.pathname)
-                print "opened image"
+                print "skipped image"
                 self.queue.put_nowait(event.pathname)
                 print "to-be-thumbed added to queue", event.pathname
                 if self.log_count % self.log_rate == 0:
