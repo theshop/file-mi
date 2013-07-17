@@ -27,6 +27,7 @@ class Thumber:
 		t0 = time.time()
 		im = Image.open(image_location)
 		size = self.width, self.height
+		print "image_location in thumb method: ", image_location
 		im.thumbnail(size, Image.ANTIALIAS)
 		outfile = self.convert_url(image_location, True)
 		
