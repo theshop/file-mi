@@ -1,7 +1,6 @@
 import Image
 import os
 import sys
-import settings
 import time
 import shutil
 
@@ -11,12 +10,12 @@ This file contains the Thumber class that provides all the thumbnailing function
 
 class Thumber:
 
-	def __init__(self, width, height):
+	def __init__(self, width, height, thubnail_dir, extension):
 
 		self.width = width
 		self.height = height
-		self.thumbnail_dir = settings.THUMBNAIL_DIR
-		self.extension = settings.EXTENSION
+		self.thumbnail_dir = thumbnail_dir
+		self.extension = extension
 
 	"""
 	This method takes image url and replaces '/' with '-' and ends with thumb to store in thumbnail directory
