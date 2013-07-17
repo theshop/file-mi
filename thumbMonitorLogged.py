@@ -131,7 +131,8 @@ class ThumberThread(threading.Thread):
                 if len(job) == 1: # It is a file 
                     self.thumber.thumb(job)
                 else:
-                    self.thumber.thumb_dir(job[0])
+                    print "this job is not a file, but a dir: ", job[0]
+                    #self.thumber.thumb_dir(job[0])
 
                 self.log()
                 self.log_count += 1
