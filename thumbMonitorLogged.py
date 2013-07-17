@@ -41,6 +41,7 @@ class EventHandler(pyinotify.ProcessEvent):
                 print "does path exist? ", os.path.exists(event.pathname)
                 print "skipped image"
                 self.queue.put(event.pathname)
+                time.sleep(1) # to clearly read what had been added to the queue, both threads spitting onto terminal screen. 
                 print "to-be-thumbed added to queue", [event.pathname]
                 if self.log_count % self.log_rate == 0:
                     log(self.log_file, ("added %s to queue to add: " % [event.pathname, str(datetime.now())]))
