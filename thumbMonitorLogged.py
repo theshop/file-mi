@@ -37,9 +37,10 @@ class EventHandler(pyinotify.ProcessEvent):
 
         if os.path.isfile(event.pathname):
             try:
+                print "in try block with path: ", event.pathname
                 im = Image.open(event.pathname)
                 self.queue.put_nowait(event.pathname)
-                print "to-be-thumbed added to queue"
+                print "to-be-thumbed added to queue", event.pathname
                 if self.log_count % self.log_rate == 0:
                     log(self.log_file, ("added %s to queue to add: " % [event.pathname, str(datetime.now())]))
             except:
