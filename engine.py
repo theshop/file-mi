@@ -222,6 +222,7 @@ class Engine:
 
 	def query(self, query):
 
+		
 		t0 = time.time()
 		qp = QueryParser("content", schema=self.schema)
 		q = qp.parse(query)
