@@ -64,6 +64,9 @@ class EventHandler(pyinotify.ProcessEvent):
         elif os.path.isdir(event.pathname):
             self.queue.put_nowait(event.pathname, True)
 
+        else:
+            pass
+
 
     def process_IN_Q_OVERFLOW(self, event):
 
@@ -103,7 +106,14 @@ class MonitorThread(threading.Thread):
 
 class ThumberThread(threading.Thread):
 
-    def __init__(self, 
+    def __init__(self, queue, thumbnail_dir, log_rate, log_file, thumb_size, extension):
+
+        self.queue = queue
+        self.thumber = Thumber(thumb_size[0], thumb_size[1], thumbnail_dir, extension)
+        self.log_count = 0
+        self.log_rate = log_rate
+        self.log_file = log_file
+        threading.Thread.__init__(self) # needed for thread to be instantiated
   
     def run(self):
 
@@ -111,61 +121,34 @@ class ThumberThread(threading.Thread):
 
             while not self.queue.empty():
 
-                path, add_or_delete = self.queue.get_nowait()
-                time_taken, successful = self.add_or_remove(path, add_or_delete)
-
-                if successful: 
-                    if self.log_count % self.log_rate == 0:
-                        if add_or_delete:
-                            log(self.log_file, ("time taken to index path: ", [time_taken, path, str(datetime.now())]))
-                        else:
-                            log(self.log_file, ("time taken to un-index path: ", [time_taken, path, str(datetime.now())]))
+                job = self.queue.get_nowait()
+                if len(job) == 1: # It is a file 
+                    self.thumber.thumb(job)
                 else:
-                    log(self.log_file,("index/ un-index of path was unsuccessful: ", [path, str(datetime.now())]))
+                    self.thumber.thumb_dir(job[0])
 
+                self.log()
                 self.log_count += 1
 
 
-    """
-    This method indexes/ removes an index of 'path', and returns the time taken to do so. 
-        params:
-            - path: the path to index/ remove from index
-            - add_or_delete: True for add/ False for delete
-        return:
-            - time_taken (0.0 if unsuccessful; i.e. directory, not file)
-            - boolean of successful or not (whether file or directory)
-    """
-    def add_or_remove(self, path, add_or_delete):
+    def log(self):
 
-        if os.path.isdir(path):
-            return [0.0, False]
-
-        t0 = time.time()
-        
-        if add_or_delete:
-            self.search_engine.add_document(path, self.buffered_writer)
-        else:
-            self.search_engine.remove_document(path, self.buffered_writer)
-
-        t1 = time.time()
-        time_taken = t1 - t0
-
-        return [time_taken, True]
-
+         if self.log_count % self.log_rate == 0:
+            log(self.log_file, ("time taken to thumb path: ", [time_taken, path, str(datetime.now())]))
 
 """
 runs the monitoring through the monitor and the indexer threads
 """
 
-def run_monitor(index_directory, monitor_directory):
+def run_monitor(thumbnail_dir, monitor_dir):
 
     queue = Queue.Queue()
 
-    monitor_thread = MonitorThread(queue, monitor_directory, 1)
-    indexer_thread = IndexerThread(queue, index_directory, 1)
+    monitor_thread = MonitorThread(queue, monitor_dir, 1)
+    thumber_thread = ThumberThread(queue, thumbnail_dir, 1)
 
     monitor_thread.start()
-    #indexer_thread.start()
+    thumber_thread.start()
 
 def log(log_file, data):
 
@@ -177,18 +160,12 @@ def log(log_file, data):
 
 
 def main():
-    #format: python fileMonitory.py index_dir watch_dir is_fresh
-    parser = argparse.ArgumentParser(description='Monitor and index a directory')
-    parser.add_argument("index_directory", help="where to store the indeces for the files in file system")
-    parser.add_argument("watch_directory", help="directory to monitor")
-    args = parser.parse_args()
-    index_directory = args.index_directory
-    watch_directory = args.watch_directory
-   
-    run_monitor(index_directory, watch_directory)
 
-
-
+    queue = Queue.Queue()
+    thumber_thread = ThumberThread(queue, '~/thumb_dir', 1, '~/thumb_log.txt', (500, 500), '.jpg')
+    monitor_thread = MonitorThread(queue, '~/thumb_monitor', 1, '~/monitor_log.txt')
+    thumber_thread.start()
+    monitor_thread.start()
 
 if __name__ == '__main__':
     main()
