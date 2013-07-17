@@ -132,6 +132,7 @@ class ThumberThread(threading.Thread):
 
                 job = self.queue.get_nowait()
                 print "job pulled: ", job
+                print "length of job: ", len(job)
                 if len(job) == 1: # It is a file 
                     self.thumber.thumb(job)
                     print "THUMBED THIS JOB!: ", job
