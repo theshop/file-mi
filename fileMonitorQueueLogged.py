@@ -253,20 +253,6 @@ class IndexerThread(threading.Thread):
         return [time_taken, True]
 
 
-"""
-runs the monitoring through the monitor and the indexer threads
-"""
-
-def run_monitor(index_directory, monitor_directory):
-
-    queue = Queue.Queue()
-
-    monitor_thread = MonitorThread(queue, monitor_directory, 1)
-    indexer_thread = IndexerThread(queue, index_directory, 1)
-
-    monitor_thread.start()
-    #indexer_thread.start()
-
 def log(log_file, data):
 
     if os.path.exists(log_file):

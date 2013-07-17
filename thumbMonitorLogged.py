@@ -47,8 +47,10 @@ class EventHandler(pyinotify.ProcessEvent):
             except IOError:
                 print "An IO error was caught"
 
-        else:
+        elif os.path.isdir(event.pathname):
             log(self.log_file, ("the path %s added to fs is not file" % [event.pathname, str(datetime.now())]))
+        else:
+            pass
 
         self.log_count += 1
 
@@ -141,7 +143,7 @@ class ThumberThread(threading.Thread):
     def log(self):
 
          if self.log_count % self.log_rate == 0:
-            log(self.log_file, ("time taken to thumb path: ", [time_taken, path, str(datetime.now())]))
+            log(self.log_file, ("time taken to thumb path: ", [path, str(datetime.now())]))
 
 """
 runs the monitoring through the monitor and the indexer threads

@@ -34,7 +34,6 @@ class Thumber:
 			os.remove(outfile)
 
 		im.save(outfile, "JPEG")
-		print "outfile: ", outfile
 		t1 = time.time()
 		return t1 - t0
 
@@ -81,11 +80,8 @@ class Thumber:
 	def __thumb_path(self, path):
 
 		if os.path.isfile(path):
-			print "path: ", path
 			try:
-				print "in the try"
 				Image.open(path)
-				print "opened image!"
 				out = self.thumb(path, self.thumbnail_dir)
 			except:
 				pass
