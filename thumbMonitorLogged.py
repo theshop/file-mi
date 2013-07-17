@@ -39,7 +39,6 @@ class EventHandler(pyinotify.ProcessEvent):
             try:
                 print "in try block with path: ", event.pathname
                 print "does path exist? ", os.path.exists(event.pathname)
-                im = Image.open(event.pathname)
                 print "skipped image"
                 self.queue.put_nowait(event.pathname)
                 print "to-be-thumbed added to queue", event.pathname
@@ -55,6 +54,8 @@ class EventHandler(pyinotify.ProcessEvent):
 
     def process_IN_MOVED_TO(self, event):
 
+        print "in IN_MOVED_TO: " event.pathname
+        """
         if os.path.isfile(event.pathname):
             try:
                 im = Image.open(event.pathname)
@@ -71,7 +72,7 @@ class EventHandler(pyinotify.ProcessEvent):
 
         else:
             pass
-
+        """
 
     def process_IN_Q_OVERFLOW(self, event):
 
