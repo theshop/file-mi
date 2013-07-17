@@ -54,7 +54,7 @@ class EventHandler(pyinotify.ProcessEvent):
 
     def process_IN_MOVED_TO(self, event):
 
-        print "in IN_MOVED_TO: " event.pathname
+        print "in IN_MOVED_TO: ", event.pathname
         """
         if os.path.isfile(event.pathname):
             try:
