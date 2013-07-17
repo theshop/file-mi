@@ -165,7 +165,7 @@ def main():
 
     queue = Queue.Queue()
     thumber_thread = ThumberThread(queue, '/home/labuser/thumb_dir', 1, '/home/labuser/thumb_log.txt', (500, 500), '.jpg')
-    monitor_thread = MonitorThread(queue, '/home/labuser/thumb_monitor', 1, '/home/labuser/monitor_log.txt')
+    monitor_thread = MonitorThread(queue, '/home/labuser/thumb_monitor', 1, '/home/labuser/monitor_log.txt') #ok
     thumber_thread.start()
     monitor_thread.start()
 
