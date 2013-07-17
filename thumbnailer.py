@@ -10,7 +10,7 @@ This file contains the Thumber class that provides all the thumbnailing function
 
 class Thumber:
 
-	def __init__(self, width, height, thubnail_dir, extension):
+	def __init__(self, width, height, thumbnail_dir, extension):
 
 		self.width = width
 		self.height = height
