@@ -38,6 +38,7 @@ class EventHandler(pyinotify.ProcessEvent):
         if os.path.isfile(event.pathname):
             try:
                 print "in try block with path: ", event.pathname
+                print "does path exist? ", os.path.exists(event.pathname)
                 im = Image.open(event.pathname)
                 print "opened image"
                 self.queue.put_nowait(event.pathname)
