@@ -134,7 +134,7 @@ class ThumberThread(threading.Thread):
                 print "job pulled: ", job
                 print "length of job: ", len(job)
                 if len(job) == 1: # It is a file 
-                    self.thumber.thumb(job)
+                    self.thumber.thumb(job, thumbnail_dir)
                     print "THUMBED THIS JOB!: ", job
                 else:
                     print "this job is not a file, but a dir: ", [job[0]]
