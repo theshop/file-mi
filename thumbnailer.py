@@ -22,13 +22,13 @@ class Thumber:
 	input: image_location
 	output: time_taken to to thumbnail
 	"""
-	def thumb(self, image_location, destination):
+	def thumb(self, image_location):
 
 		t0 = time.time()
 		im = Image.open(image_location)
 		size = self.width, self.height
 		im.thumbnail(size, Image.ANTIALIAS)
-		outfile = self.convert_url(image_location, destination, True)
+		outfile = self.convert_url(image_location, True)
 		
 		if os.path.exists(outfile):
 			os.remove(outfile)
@@ -44,19 +44,19 @@ class Thumber:
 	input: image_url, forward
 	output: formatted/de-formatted url
 	"""
-	def convert_url(self, image_url, destination, forward):
+	def convert_url(self, image_url, forward):
 
 		if forward: 
 			file_name, ext = os.path.splitext(image_url)
 			file_name = file_name.replace('/', '-')
 			file_name = file_name[1:]
 			ext = ext.replace('.', '-')
-			out = destination + file_name + ext + self.extension
+			out = self.thumbnail_dir + file_name + ext + self.extension
 			return out
 
 		else:
 			arr = list(image_url)
-			for i in range(len(destination)):
+			for i in range(len(self.thumbnail_dir)):
 				arr.pop(0)
 			for i in range(len(self.extension)):
 				arr.pop()
