@@ -134,7 +134,7 @@ class ThumberThread(threading.Thread):
                     self.thumber.thumb(job)
                     print "THUMBED THIS JOB!: ", job
                 else:
-                    print "this job is not a file, but a dir: ", job[0]
+                    print "this job is not a file, but a dir: ", [job[0]]
                     #self.thumber.thumb_dir(job[0])
                 self.log(job)
                 self.log_count += 1
