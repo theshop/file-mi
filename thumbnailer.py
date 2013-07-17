@@ -24,6 +24,7 @@ class Thumber:
 	"""
 	def thumb(self, image_location):
 		print "image_location in thumb method: ", image_location
+		print "type(image_location): ", type(image_location)
 		t0 = time.time()
 		im = Image.open(image_location)
 		size = self.width, self.height
