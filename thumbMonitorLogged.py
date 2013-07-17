@@ -135,12 +135,11 @@ class ThumberThread(threading.Thread):
                 else:
                     print "this job is not a file, but a dir: ", job[0]
                     #self.thumber.thumb_dir(job[0])
-
-                self.log()
+                self.log(job)
                 self.log_count += 1
 
 
-    def log(self):
+    def log(self, path):
 
          if self.log_count % self.log_rate == 0:
             log(self.log_file, ("time taken to thumb path: ", [path, str(datetime.now())]))
