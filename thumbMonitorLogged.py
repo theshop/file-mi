@@ -36,17 +36,11 @@ class EventHandler(pyinotify.ProcessEvent):
     def process_IN_CREATE(self, event):
 
         if os.path.isfile(event.pathname):
-            try:
-                print "in try block with path: ", event.pathname
-                print "does path exist? ", os.path.exists(event.pathname)
-                print "skipped image"
-                self.queue.put([event.pathname])
-                time.sleep(1) # to clearly read what had been added to the queue, both threads spitting onto terminal screen. 
-                print "to-be-thumbed added to queue", [event.pathname]
-                if self.log_count % self.log_rate == 0:
-                    log(self.log_file, ("added %s to queue to add: " % [event.pathname, str(datetime.now())]))
-            except IOError:
-                print "An IO error was caught"
+
+            self.queue.put_nowait([event.pathname])
+            
+            if self.log_count % self.log_rate == 0:
+                log(self.log_file, ("added %s to queue to add: " % [event.pathname, str(datetime.now())]))
 
         elif os.path.isdir(event.pathname):
             log(self.log_file, ("the path %s added to fs is not file" % [event.pathname, str(datetime.now())]))
@@ -57,16 +51,13 @@ class EventHandler(pyinotify.ProcessEvent):
 
     def process_IN_MOVED_TO(self, event):
 
-        print "in IN_MOVED_TO: ", event.pathname
-        """
         if os.path.isfile(event.pathname):
             try:
                 im = Image.open(event.pathname)
                 self.queue.put_nowait(event.pathname)
-                print "to-be-thumbed added to queue"
 
                 if self.log_count % self.log_rate == 0:
-                    log(self.log_file, ("added %s to queue to add: " % [event.pathname, str(datetime.now())]))
+                    log(self.log_file, ("added %s to queue to add IN_MOVED_TO: " % [event.pathname, str(datetime.now())]))
             except:
                 pass
 
@@ -75,7 +66,6 @@ class EventHandler(pyinotify.ProcessEvent):
 
         else:
             pass
-        """
 
     def process_IN_Q_OVERFLOW(self, event):
 
@@ -83,7 +73,7 @@ class EventHandler(pyinotify.ProcessEvent):
         # currently emailing karthik@silanano if an event queue overflow occurs
         sender = 'kartuppuluri@gmail.com'
         receiver = 'karthik@silanano.com'
-        message = " The file monitor crashed!"
+        message = " The pyinotify queue overflowed, will miss some paths!"
 
         #credentials:
         username = 'kartuppuluri'
@@ -132,13 +122,15 @@ class ThumberThread(threading.Thread):
 
                 job = self.queue.get_nowait()
                 print "job pulled: ", job
-                print "length of job: ", len(job)
                 if len(job) == 1: # It is a file 
-                    self.thumber.thumb(job[0])
-                    print "THUMBED THIS JOB!: ", job
+                    try:
+                        self.thumber.thumb(job[0])
+                        print "THUMBED THIS JOB!: ", job
+                    except: # either pic deleted from or hasn't completely transfered to the file system.
+                        pass
                 else:
                     print "this job is not a file, but a dir: ", [job[0]]
-                    #self.thumber.thumb_dir(job[0])
+                    self.thumber.thumb_dir(job[0])
                 self.log(job)
                 self.log_count += 1
 
