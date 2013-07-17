@@ -132,6 +132,7 @@ class ThumberThread(threading.Thread):
                 job = self.queue.get_nowait()
                 if len(job) == 1: # It is a file 
                     self.thumber.thumb(job)
+                    print "THUMBED THIS JOB!: ", job
                 else:
                     print "this job is not a file, but a dir: ", job[0]
                     #self.thumber.thumb_dir(job[0])
