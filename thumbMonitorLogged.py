@@ -60,6 +60,8 @@ class EventHandler(pyinotify.ProcessEvent):
 
                 if self.log_count % self.log_rate == 0:
                     log(self.log_file, ("added %s to queue to add: " % [event.pathname, str(datetime.now())]))
+            except:
+                pass
 
         elif os.path.isdir(event.pathname):
             self.queue.put_nowait(event.pathname, True)
